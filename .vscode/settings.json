@@ -11,14 +11,16 @@
   "git.postCommitCommand": "sync",
   "files.defaultLanguage": "markdown",
   "files.exclude": {
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/_site": true
   },
   "files.watcherExclude": {
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/_site": true
   },
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
   "foam.edit.linkReferenceDefinitions": "withoutExtensions",
   "foam.openDailyNote.directory": "journal",
-  "foam.openDailyNote.titleFormat": "fullDate",
+  "foam.openDailyNote.titleFormat": "fullDate"
 }
